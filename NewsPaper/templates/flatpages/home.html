@@ -1,0 +1,95 @@
+<!--  наследуемся от шаблона default.html -->
+{% extends 'flatpages/default.html' %} 
+ 
+<!--   не забываем заранее загружать наши фильтры! -->
+
+<!-- Название NEWS -->
+{% block title %}
+    Задание модуля D5
+{% endblock title %}
+
+{% block content %}
+    <div style="text-align: left; margin-left: auto;">    
+        <br>
+        <h3>Задание:</h3>
+        <hr>
+        <ol>
+            <li>
+                <label>
+                    <input type="checkbox" name="step1" value="done">
+                    В классе-представлении редактирования профиля добавить проверку аутентификации.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step2" value="done">
+                    Выполнить необходимые настройки пакета allauth в файле конфигурации.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step3" value="done">
+                    В файле конфигурации определить адрес для перенаправления на страницу входа в систему и адрес перенаправления после успешного входа.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step4" value="done">
+                    Реализовать шаблон с формой входа в систему и выполнить настройку конфигурации URL.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step5" value="done">
+                    Реализовать шаблон страницы регистрации пользователей.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step6" value="done">
+                    Реализовать возможность регистрации через Google-аккаунт.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step7" value="done">
+                    Создать группы common и authors.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step8" value="done">
+                    Реализовать автоматическое добавление новых пользователей в группу common.
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step9" value="done">
+                    Создать возможность стать автором (быть добавленным в группу authors).
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step10" value="done">
+                    Для группы authors предоставить права создания и редактирования объектов модели Post (новостей и статей).
+                </label
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="step11" value="done">
+                    В классах-представлениях добавления и редактирования новостей и статей добавить проверку прав доступа.
+                </label
+            </li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li
+        </ol>      
+        <hr>    
+    </div>
+    
+{% endblock content %}
